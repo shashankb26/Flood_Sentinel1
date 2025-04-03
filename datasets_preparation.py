@@ -17,7 +17,7 @@ if 'distributed' in sys.modules:
     print("WARNING: distributed module is loaded unexpectedly")
 
 
-base_path = "D:/Flood/Foss4gAsia2023/c2smsfloods/chips"
+base_path = "D:/Flood/Shashank/c2smsfloods/chips"
 S1_label_paths = sorted(glob.glob(os.path.join(base_path, "*/s1/*/LabelWater.tif")))
 S1_img_paths = [[path.replace("LabelWater.tif", "VV.tif"), path.replace("LabelWater.tif", "VH.tif")] for path in S1_label_paths]
 
