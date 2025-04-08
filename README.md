@@ -14,8 +14,9 @@ Logging: Integration with WandB for monitoring training progress.
 Requirements
 Python 3.11.5
 
-Create a Virtual Environment Using Python 3.11.5 :
+Create a Virtual Environment Using Python 3.11.5 (Windows) :
 python -m venv venv
+
 venv\Scripts\activate
 
 Install Dependencies
